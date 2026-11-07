@@ -1,2 +1,2 @@
-# ClarityClientSource
-https://dsc.gg/herlysaddon
+# ProjectClarityClient
+

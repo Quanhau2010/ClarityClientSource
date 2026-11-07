@@ -1,0 +1,218 @@
+{
+  "hit.anime": {
+    "sounds": [
+      {
+        "name": "clarity:hit/anime",
+        "stream": false
+      }
+    ]
+  },
+  "hit.bladeball": {
+    "sounds": [
+      {
+        "name": "clarity:hit/bladeball",
+        "stream": false
+      }
+    ]
+  },
+  "hit.chink": {
+    "sounds": [
+      {
+        "name": "clarity:hit/chink",
+        "stream": false
+      }
+    ]
+  },
+  "hit.click": {
+    "sounds": [
+      {
+        "name": "clarity:hit/click",
+        "stream": false
+      }
+    ]
+  },
+  "hit.copperbell": {
+    "sounds": [
+      {
+        "name": "clarity:hit/copperbell",
+        "stream": false
+      }
+    ]
+  },
+  "hit.crystal": {
+    "sounds": [
+      {
+        "name": "clarity:hit/crystal",
+        "stream": false
+      }
+    ]
+  },
+  "hit.glass1": {
+    "sounds": [
+      {
+        "name": "clarity:hit/glass1",
+        "stream": false
+      }
+    ]
+  },
+  "hit.glass2": {
+    "sounds": [
+      {
+        "name": "clarity:hit/glass2",
+        "stream": false
+      }
+    ]
+  },
+  "hit.metalbat": {
+    "sounds": [
+      {
+        "name": "clarity:hit/metalbat",
+        "stream": false
+      }
+    ]
+  },
+  "hit.neverlose": {
+    "sounds": [
+      {
+        "name": "clarity:hit/neverlose",
+        "stream": false
+      }
+    ]
+  },
+  "hit.punch": {
+    "sounds": [
+      {
+        "name": "clarity:hit/punch",
+        "stream": false
+      }
+    ]
+  },
+  "hit.slice": {
+    "sounds": [
+      {
+        "name": "clarity:hit/slice",
+        "stream": false
+      }
+    ]
+  },
+  "hit.tap": {
+    "sounds": [
+      {
+        "name": "clarity:hit/tap",
+        "stream": false
+      }
+    ]
+  },
+  "hit.water": {
+    "sounds": [
+      {
+        "name": "clarity:hit/water",
+        "stream": false
+      }
+    ]
+  },
+  "kill.criticalhit": {
+    "sounds": [
+      {
+        "name": "clarity:kill/criticalhit",
+        "stream": false
+      }
+    ]
+  },
+  "kill.dead": {
+    "sounds": [
+      {
+        "name": "clarity:kill/dead",
+        "stream": false
+      }
+    ]
+  },
+  "kill.gong": {
+    "sounds": [
+      {
+        "name": "clarity:kill/gong",
+        "stream": false
+      }
+    ]
+  },
+  "kill.headshot": {
+    "sounds": [
+      {
+        "name": "clarity:kill/headshot",
+        "stream": false
+      }
+    ]
+  },
+  "kill.killpop": {
+    "sounds": [
+      {
+        "name": "clarity:kill/killpop",
+        "stream": false
+      }
+    ]
+  },
+  "kill.phaseout": {
+    "sounds": [
+      {
+        "name": "clarity:kill/phaseout",
+        "stream": false
+      }
+    ]
+  },
+  "kill.rezero": {
+    "sounds": [
+      {
+        "name": "clarity:kill/rezero",
+        "stream": false
+      }
+    ]
+  },
+  "kill.roblox": {
+    "sounds": [
+      {
+        "name": "clarity:kill/roblox",
+        "stream": false
+      }
+    ]
+  },
+  "kill.shatter": {
+    "sounds": [
+      {
+        "name": "clarity:kill/shatter",
+        "stream": false
+      }
+    ]
+  },
+  "kill.supersmashbros": {
+    "sounds": [
+      {
+        "name": "clarity:kill/supersmashbros",
+        "stream": false
+      }
+    ]
+  },
+  "kill.tf2killstreak": {
+    "sounds": [
+      {
+        "name": "clarity:kill/tf2killstreak",
+        "stream": false
+      }
+    ]
+  },
+  "kill.undertale": {
+    "sounds": [
+      {
+        "name": "clarity:kill/undertale",
+        "stream": false
+      }
+    ]
+  },
+  "kill.valorant": {
+    "sounds": [
+      {
+        "name": "clarity:kill/valorant",
+        "stream": false
+      }
+    ]
+  }
+}

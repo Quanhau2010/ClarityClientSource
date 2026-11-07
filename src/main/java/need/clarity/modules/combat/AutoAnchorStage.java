@@ -1,0 +1,24 @@
+package need.clarity.modules.combat;
+
+
+public enum AutoAnchorStage {
+    IDLE,
+    EXPLODE_WAIT,
+    SAFE_ROTATE_TO_SIDE,
+    SAFE_PLACE_GLOWSTONE,
+    SAFE_ROTATE_TO_ANCHOR,
+    SAFE_EXPLODE,
+    SILENT_PLACE_ANCHOR,
+    SILENT_CHARGE,
+    SILENT_EXPLODE_WAIT,
+    SILENT_SAFE_ROTATE_TO_SIDE,
+    SILENT_SAFE_PLACE_GLOWSTONE,
+    SILENT_SAFE_ROTATE_TO_ANCHOR,
+    SILENT_SAFE_EXPLODE,
+    DONE;
+
+
+    AutoAnchorStage() {
+    }
+
+}

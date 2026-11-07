@@ -1,0 +1,79 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.19.3'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Fabric'
+        url = 'https://maven.fabricmc.net/'
+    }
+    maven {
+        name = 'SpongePowered'
+        url = 'https://repo.spongepowered.org/repository/maven-public/'
+    }
+}
+
+dependencies {
+    // Minecraft 26.1.2 & Fabric Loader
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // Embedded LWJGL NanoVG natives
+    implementation fileTree(dir: 'src/main/resources/META-INF/jars', include: ['*.jar'])
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release = 25
+    it.options.compilerArgs += ["-parameters"]
+}
+
+java {
+    withSourcesJar()
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+}
+
+tasks.register("quickBuild", Jar) {
+    description = "Quickly packages the verified purified JAR without downloading Minecraft dependencies."
+    group = "build"
+    archiveBaseName.set(project.archives_base_name)
+    archiveVersion.set(project.mod_version)
+    destinationDirectory.set(layout.buildDirectory.dir("libs"))
+
+    from(zipTree("build/libs/clarity-purified-1.2.0.jar"))
+}
+
+tasks.named("compileJava") {
+    enabled = false
+}
+
+tasks.named("build") {
+    dependsOn("quickBuild")
+}

@@ -1,0 +1,96 @@
+package need.clarity.modules.utility;
+
+import net.minecraft.world.entity.HumanoidArm;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.WalkAnimationState;
+
+public final class PlayerGhostSnapshot {
+    double doubleValue;
+    double doubleValue1;
+    double doubleValue2;
+    float floatValue;
+    float floatValue1;
+    float floatValue2;
+    float floatValue3;
+    float floatValue4;
+    float floatValue5;
+    double doubleValue3;
+    double doubleValue4;
+    double doubleValue5;
+    double doubleValue6;
+    double doubleValue7;
+    double doubleValue8;
+    float floatValue6;
+    float floatValue7;
+    float floatValue8;
+    final WalkAnimationState fieldVal;
+    boolean enabledState;
+    int counterValue;
+    float floatValue9;
+    float floatValue10;
+    HumanoidArm fieldVal1;
+    int counterValue1;
+    boolean enabledState1;
+    boolean enabledState2;
+    boolean enabledState3;
+    boolean enabledState4;
+    Pose fieldVal2;
+    float floatValue11;
+    int counterValue2;
+    long timestampMs;
+    double doubleValue9;
+    double doubleValue10;
+    double doubleValue11;
+    int counterValue3;
+    float floatValue12;
+    float floatValue13;
+    float floatValue14;
+    int counterValue4;
+    float floatValue15;
+    float floatValue16;
+    double doubleValue12;
+    double doubleValue13;
+    double doubleValue14;
+    long timestampMs1;
+
+    PlayerGhostSnapshot(double arg0, double arg1, double arg2, float arg3, float arg4, float arg5) {
+        WalkAnimationState var11 = new WalkAnimationState();
+        this.fieldVal = var11;
+        HumanoidArm var45 = HumanoidArm.RIGHT;
+        this.fieldVal1 = var45;
+        Pose var46 = Pose.STANDING;
+        this.fieldVal2 = var46;
+        this.doubleValue = arg0;
+        this.doubleValue1 = arg1;
+        this.doubleValue2 = arg2;
+        this.floatValue = arg3;
+        this.floatValue1 = arg4;
+        this.floatValue2 = arg5;
+        this.doubleValue3 = arg0;
+        this.doubleValue4 = arg1;
+        this.doubleValue5 = arg2;
+        this.floatValue3 = arg3;
+        this.floatValue4 = arg4;
+        this.floatValue5 = arg5;
+        this.doubleValue6 = arg0;
+        this.doubleValue7 = arg1;
+        this.doubleValue8 = arg2;
+        this.floatValue6 = arg3;
+        this.floatValue7 = arg4;
+        this.floatValue8 = arg5;
+        this.doubleValue12 = arg0;
+        this.doubleValue13 = arg1;
+        this.doubleValue14 = arg2;
+        long var80 = System.nanoTime();
+        this.timestampMs1 = var80;
+        this.doubleValue9 = arg0;
+        this.doubleValue10 = arg1;
+        this.doubleValue11 = arg2;
+        this.floatValue12 = arg3;
+        this.floatValue13 = arg4;
+        this.floatValue14 = arg5;
+        this.floatValue15 = arg3;
+        this.floatValue16 = arg3;
+    }
+
+}
